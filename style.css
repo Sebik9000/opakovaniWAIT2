@@ -1,4 +1,4 @@
-
+/* Nastavení základního stylu pro stránku */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -6,6 +6,7 @@ body {
     color: #333;
 }
 
+/* Stylování pro hlavičku, sekce a patičku */
 header, section, footer {
     margin-bottom: 20px;
     padding: 20px;
@@ -14,44 +15,53 @@ header, section, footer {
     box-shadow: 0 0 10px rgba(1, 0, 0, 0.1);
 }
 
+/* Barva textu pro hlavní nadpis v hlavičce */
 header h1 {
     color: #0066cc;
 }
 
+/* Stylování pro podnadpisy */
 h2 {
     color: #333;
     border-bottom: 2px solid #0066cc;
     padding-bottom: 5px;
 }
 
+/* Základní stylování pro tabulky */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
+/* Stylování pro tabulky, hlavičky a buňky */
 table, th, td {
     border: 1px solid #ccc;
 }
 
+/* Stylování pro buňky tabulky */
 th, td {
     padding: 10px;
     text-align: left;
 }
 
+/* Stylování pro hlavičky tabulky */
 th {
     background-color: #f9f9f9;
 }
 
+/* Stylování pro odkazy */
 a {
     color: #0066cc;
     text-decoration: none;
 }
 
+/* Stylování pro odkazy při přejetí kurzorem */
 a:hover {
     text-decoration: underline;
 }
 
+/* Stylování pro obrázky */
 img {
     margin: 10px;
     border: 1px solid #ccc;
@@ -61,10 +71,12 @@ img {
     height: auto;
 }
 
+/* Stylování pro odstavce */
 p {
     line-height: 1.6;
 }
 
+/* Stylování pro patičku (em je specifická jednotka na velikost fontu, tohle znamená že to je 0.9x originální velikost toho fontu */
 footer {
     text-align: center;
     font-size: 0.9em;
